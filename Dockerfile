@@ -1,4 +1,4 @@
-FROM python:3FROM
+FROM python:3
 
 WORKDIR /usr/src/app
 
