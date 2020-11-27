@@ -15,7 +15,7 @@ of a csv file to a json and returns its data.
     + Here we define ```csv2json``` which is the name of the image
     + The image name can be any identifier, as long as you keep up the consistence with it.
     ```
-    docker build -t csv2json
+    docker build -t csv2json .
     ```
 3. Run image as a service
     + Here note port 5050 will be the one exposed on the host side.
