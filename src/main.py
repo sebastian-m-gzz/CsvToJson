@@ -16,7 +16,7 @@ def read(file_path):
 # http://host:5000/
 @app.route('/', methods=['GET'])
 def main():
-    file_name = request.args.get('name', 'data', type = str)
+    file_name = request.args.get('name', 'employees ', type=str)
     data = read(f'data/{file_name}.csv')
     return jsonify(data)
 
